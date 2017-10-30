@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		758AD9C82952AAE8387E417C /* libPods-FZKBLE.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 304BC8DD955565F5971A93A5 /* libPods-FZKBLE.a */; };
+		967ADEF81F5D237A00E208D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 967ADEF71F5D237A00E208D6 /* main.m */; };
+		967ADEFB1F5D237A00E208D6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 967ADEFA1F5D237A00E208D6 /* AppDelegate.m */; };
+		967ADEFE1F5D237A00E208D6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 967ADEFD1F5D237A00E208D6 /* ViewController.m */; };
+		967ADF011F5D237A00E208D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 967ADEFF1F5D237A00E208D6 /* Main.storyboard */; };
+		967ADF031F5D237A00E208D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 967ADF021F5D237A00E208D6 /* Assets.xcassets */; };
+		967ADF061F5D237A00E208D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 967ADF041F5D237A00E208D6 /* LaunchScreen.storyboard */; };
+		967ADF111F5D237A00E208D6 /* FZKBLETests.m in Sources */ = {isa = PBXBuildFile; fileRef = 967ADF101F5D237A00E208D6 /* FZKBLETests.m */; };
+		967ADF1C1F5D237A00E208D6 /* FZKBLEUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 967ADF1B1F5D237A00E208D6 /* FZKBLEUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		967ADF0D1F5D237A00E208D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 967ADEEB1F5D237A00E208D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 967ADEF21F5D237A00E208D6;
+			remoteInfo = FZKBLE;
+		};
+		967ADF181F5D237A00E208D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 967ADEEB1F5D237A00E208D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 967ADEF21F5D237A00E208D6;
+			remoteInfo = FZKBLE;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		304BC8DD955565F5971A93A5 /* libPods-FZKBLE.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FZKBLE.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		57AA13234991393C096DCFD9 /* Pods-FZKBLE.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FZKBLE.release.xcconfig"; path = "Pods/Target Support Files/Pods-FZKBLE/Pods-FZKBLE.release.xcconfig"; sourceTree = "<group>"; };
+		967ADEF31F5D237A00E208D6 /* FZKBLE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FZKBLE.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		967ADEF71F5D237A00E208D6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		967ADEF91F5D237A00E208D6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		967ADEFA1F5D237A00E208D6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		967ADEFC1F5D237A00E208D6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		967ADEFD1F5D237A00E208D6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		967ADF001F5D237A00E208D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		967ADF021F5D237A00E208D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		967ADF051F5D237A00E208D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		967ADF071F5D237A00E208D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		967ADF0C1F5D237A00E208D6 /* FZKBLETests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FZKBLETests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		967ADF101F5D237A00E208D6 /* FZKBLETests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FZKBLETests.m; sourceTree = "<group>"; };
+		967ADF121F5D237A00E208D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		967ADF171F5D237A00E208D6 /* FZKBLEUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FZKBLEUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		967ADF1B1F5D237A00E208D6 /* FZKBLEUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FZKBLEUITests.m; sourceTree = "<group>"; };
+		967ADF1D1F5D237A00E208D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA849BCF4C3F4D1E3E418EDB /* Pods-FZKBLE.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FZKBLE.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FZKBLE/Pods-FZKBLE.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		967ADEF01F5D237A00E208D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				758AD9C82952AAE8387E417C /* libPods-FZKBLE.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		967ADF091F5D237A00E208D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		967ADF141F5D237A00E208D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		967ADEEA1F5D237A00E208D6 = {
+			isa = PBXGroup;
+			children = (
+				967ADEF51F5D237A00E208D6 /* FZKBLE */,
+				967ADF0F1F5D237A00E208D6 /* FZKBLETests */,
+				967ADF1A1F5D237A00E208D6 /* FZKBLEUITests */,
+				967ADEF41F5D237A00E208D6 /* Products */,
+				9C1986F1FAB26AF4B03B2027 /* Pods */,
+				D474E42F51006A160124280B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		967ADEF41F5D237A00E208D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				967ADEF31F5D237A00E208D6 /* FZKBLE.app */,
+				967ADF0C1F5D237A00E208D6 /* FZKBLETests.xctest */,
+				967ADF171F5D237A00E208D6 /* FZKBLEUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		967ADEF51F5D237A00E208D6 /* FZKBLE */ = {
+			isa = PBXGroup;
+			children = (
+				967ADEF91F5D237A00E208D6 /* AppDelegate.h */,
+				967ADEFA1F5D237A00E208D6 /* AppDelegate.m */,
+				967ADEFC1F5D237A00E208D6 /* ViewController.h */,
+				967ADEFD1F5D237A00E208D6 /* ViewController.m */,
+				967ADEFF1F5D237A00E208D6 /* Main.storyboard */,
+				967ADF021F5D237A00E208D6 /* Assets.xcassets */,
+				967ADF041F5D237A00E208D6 /* LaunchScreen.storyboard */,
+				967ADF071F5D237A00E208D6 /* Info.plist */,
+				967ADEF61F5D237A00E208D6 /* Supporting Files */,
+			);
+			path = FZKBLE;
+			sourceTree = "<group>";
+		};
+		967ADEF61F5D237A00E208D6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				967ADEF71F5D237A00E208D6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		967ADF0F1F5D237A00E208D6 /* FZKBLETests */ = {
+			isa = PBXGroup;
+			children = (
+				967ADF101F5D237A00E208D6 /* FZKBLETests.m */,
+				967ADF121F5D237A00E208D6 /* Info.plist */,
+			);
+			path = FZKBLETests;
+			sourceTree = "<group>";
+		};
+		967ADF1A1F5D237A00E208D6 /* FZKBLEUITests */ = {
+			isa = PBXGroup;
+			children = (
+				967ADF1B1F5D237A00E208D6 /* FZKBLEUITests.m */,
+				967ADF1D1F5D237A00E208D6 /* Info.plist */,
+			);
+			path = FZKBLEUITests;
+			sourceTree = "<group>";
+		};
+		9C1986F1FAB26AF4B03B2027 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EA849BCF4C3F4D1E3E418EDB /* Pods-FZKBLE.debug.xcconfig */,
+				57AA13234991393C096DCFD9 /* Pods-FZKBLE.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D474E42F51006A160124280B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				304BC8DD955565F5971A93A5 /* libPods-FZKBLE.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		967ADEF21F5D237A00E208D6 /* FZKBLE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 967ADF201F5D237A00E208D6 /* Build configuration list for PBXNativeTarget "FZKBLE" */;
+			buildPhases = (
+				2211070EE265A38EC254C8B5 /* [CP] Check Pods Manifest.lock */,
+				967ADEEF1F5D237A00E208D6 /* Sources */,
+				967ADEF01F5D237A00E208D6 /* Frameworks */,
+				967ADEF11F5D237A00E208D6 /* Resources */,
+				D4C44E3BDBA9EBC30A481015 /* [CP] Embed Pods Frameworks */,
+				0D6E5EDA3268E74A3FB26166 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FZKBLE;
+			productName = FZKBLE;
+			productReference = 967ADEF31F5D237A00E208D6 /* FZKBLE.app */;
+			productType = "com.apple.product-type.application";
+		};
+		967ADF0B1F5D237A00E208D6 /* FZKBLETests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 967ADF231F5D237A00E208D6 /* Build configuration list for PBXNativeTarget "FZKBLETests" */;
+			buildPhases = (
+				967ADF081F5D237A00E208D6 /* Sources */,
+				967ADF091F5D237A00E208D6 /* Frameworks */,
+				967ADF0A1F5D237A00E208D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				967ADF0E1F5D237A00E208D6 /* PBXTargetDependency */,
+			);
+			name = FZKBLETests;
+			productName = FZKBLETests;
+			productReference = 967ADF0C1F5D237A00E208D6 /* FZKBLETests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		967ADF161F5D237A00E208D6 /* FZKBLEUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 967ADF261F5D237A00E208D6 /* Build configuration list for PBXNativeTarget "FZKBLEUITests" */;
+			buildPhases = (
+				967ADF131F5D237A00E208D6 /* Sources */,
+				967ADF141F5D237A00E208D6 /* Frameworks */,
+				967ADF151F5D237A00E208D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				967ADF191F5D237A00E208D6 /* PBXTargetDependency */,
+			);
+			name = FZKBLEUITests;
+			productName = FZKBLEUITests;
+			productReference = 967ADF171F5D237A00E208D6 /* FZKBLEUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		967ADEEB1F5D237A00E208D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = SONG;
+				TargetAttributes = {
+					967ADEF21F5D237A00E208D6 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = XBE25ZNMM5;
+						ProvisioningStyle = Automatic;
+					};
+					967ADF0B1F5D237A00E208D6 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = EAY35SZ8W7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 967ADEF21F5D237A00E208D6;
+					};
+					967ADF161F5D237A00E208D6 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = EAY35SZ8W7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 967ADEF21F5D237A00E208D6;
+					};
+				};
+			};
+			buildConfigurationList = 967ADEEE1F5D237A00E208D6 /* Build configuration list for PBXProject "FZKBLE" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 967ADEEA1F5D237A00E208D6;
+			productRefGroup = 967ADEF41F5D237A00E208D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				967ADEF21F5D237A00E208D6 /* FZKBLE */,
+				967ADF0B1F5D237A00E208D6 /* FZKBLETests */,
+				967ADF161F5D237A00E208D6 /* FZKBLEUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		967ADEF11F5D237A00E208D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				967ADF061F5D237A00E208D6 /* LaunchScreen.storyboard in Resources */,
+				967ADF031F5D237A00E208D6 /* Assets.xcassets in Resources */,
+				967ADF011F5D237A00E208D6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		967ADF0A1F5D237A00E208D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		967ADF151F5D237A00E208D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D6E5EDA3268E74A3FB26166 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FZKBLE/Pods-FZKBLE-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2211070EE265A38EC254C8B5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FZKBLE-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4C44E3BDBA9EBC30A481015 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FZKBLE/Pods-FZKBLE-frameworks.sh",
+				"${PODS_ROOT}/../Framework/FZKBLE.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FZKBLE.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FZKBLE/Pods-FZKBLE-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		967ADEEF1F5D237A00E208D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				967ADEFE1F5D237A00E208D6 /* ViewController.m in Sources */,
+				967ADEFB1F5D237A00E208D6 /* AppDelegate.m in Sources */,
+				967ADEF81F5D237A00E208D6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		967ADF081F5D237A00E208D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				967ADF111F5D237A00E208D6 /* FZKBLETests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		967ADF131F5D237A00E208D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				967ADF1C1F5D237A00E208D6 /* FZKBLEUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		967ADF0E1F5D237A00E208D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 967ADEF21F5D237A00E208D6 /* FZKBLE */;
+			targetProxy = 967ADF0D1F5D237A00E208D6 /* PBXContainerItemProxy */;
+		};
+		967ADF191F5D237A00E208D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 967ADEF21F5D237A00E208D6 /* FZKBLE */;
+			targetProxy = 967ADF181F5D237A00E208D6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		967ADEFF1F5D237A00E208D6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				967ADF001F5D237A00E208D6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		967ADF041F5D237A00E208D6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				967ADF051F5D237A00E208D6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		967ADF1E1F5D237A00E208D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		967ADF1F1F5D237A00E208D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		967ADF211F5D237A00E208D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA849BCF4C3F4D1E3E418EDB /* Pods-FZKBLE.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XBE25ZNMM5;
+				INFOPLIST_FILE = FZKBLE/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SONG.FZKBLEssssss;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		967ADF221F5D237A00E208D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57AA13234991393C096DCFD9 /* Pods-FZKBLE.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XBE25ZNMM5;
+				INFOPLIST_FILE = FZKBLE/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SONG.FZKBLEssssss;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		967ADF241F5D237A00E208D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = EAY35SZ8W7;
+				INFOPLIST_FILE = FZKBLETests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SONG.FZKBLETests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FZKBLE.app/FZKBLE";
+			};
+			name = Debug;
+		};
+		967ADF251F5D237A00E208D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = EAY35SZ8W7;
+				INFOPLIST_FILE = FZKBLETests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SONG.FZKBLETests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FZKBLE.app/FZKBLE";
+			};
+			name = Release;
+		};
+		967ADF271F5D237A00E208D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = EAY35SZ8W7;
+				INFOPLIST_FILE = FZKBLEUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SONG.FZKBLEUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FZKBLE;
+			};
+			name = Debug;
+		};
+		967ADF281F5D237A00E208D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = EAY35SZ8W7;
+				INFOPLIST_FILE = FZKBLEUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SONG.FZKBLEUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FZKBLE;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		967ADEEE1F5D237A00E208D6 /* Build configuration list for PBXProject "FZKBLE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				967ADF1E1F5D237A00E208D6 /* Debug */,
+				967ADF1F1F5D237A00E208D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		967ADF201F5D237A00E208D6 /* Build configuration list for PBXNativeTarget "FZKBLE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				967ADF211F5D237A00E208D6 /* Debug */,
+				967ADF221F5D237A00E208D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		967ADF231F5D237A00E208D6 /* Build configuration list for PBXNativeTarget "FZKBLETests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				967ADF241F5D237A00E208D6 /* Debug */,
+				967ADF251F5D237A00E208D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		967ADF261F5D237A00E208D6 /* Build configuration list for PBXNativeTarget "FZKBLEUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				967ADF271F5D237A00E208D6 /* Debug */,
+				967ADF281F5D237A00E208D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 967ADEEB1F5D237A00E208D6 /* Project object */;
+}

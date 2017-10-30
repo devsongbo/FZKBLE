@@ -1,0 +1,6 @@
+framework module FZKBLE {
+  umbrella header "FZKBLE.h"
+
+  export *
+  module * { export * }
+}
