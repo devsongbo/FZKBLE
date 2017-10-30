@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 
   # s.resource = 'BeeHive/*.bundle'
   s.frameworks = 'UIKit','CoreBluetooth'
-  s.vendored_frameworks = 'Framework/FZKBLE.framework'
+  s.vendored_frameworks = 'Frameworks/FZKBLE.framework'
 
   s.dependency "BabyBluetooth"
   s.dependency "YYKit"
