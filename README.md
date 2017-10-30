@@ -3,7 +3,7 @@
 ##如何安装
 step1:
      podfile 添加
-     pod 'FZKBLE',      :git => 'https://songbo@192.168.6.86:8443/r/ios/FZKBLE.git'
+     pod 'FZKBLE', '~> 1.0.0'
      执行 pod install  即可自动安装并集成依赖库
 
 step2:导入.h文件
