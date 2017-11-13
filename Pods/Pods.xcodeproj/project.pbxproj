@@ -268,7 +268,6 @@
 		0B49C1C46DD794225784C805B3FEDC2A /* UIScrollView+YYAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+YYAdd.h"; path = "YYKit/Base/UIKit/UIScrollView+YYAdd.h"; sourceTree = "<group>"; };
 		0D76D2D181BB5C2C11FC588349BEA5D0 /* YYDispatchQueuePool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYDispatchQueuePool.m; path = YYKit/Utility/YYDispatchQueuePool.m; sourceTree = "<group>"; };
 		11016E3CB6ED047E5C55BE29BEC1F83B /* BabyBluetooth.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BabyBluetooth.m; path = Classes/objc/BabyBluetooth.m; sourceTree = "<group>"; };
-		1126F64567BCB25A9DEB499F5FC13748 /* FZKBLE.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FZKBLE.framework; path = Framework/FZKBLE.framework; sourceTree = "<group>"; };
 		1225C3E2DF9A991EF14945CAEC4CD2F6 /* NSDictionary+YYAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+YYAdd.m"; path = "YYKit/Base/Foundation/NSDictionary+YYAdd.m"; sourceTree = "<group>"; };
 		134DD2907B296685C95B469863085B50 /* YYTextKeyboardManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYTextKeyboardManager.m; path = YYKit/Text/Component/YYTextKeyboardManager.m; sourceTree = "<group>"; };
 		1582C4DB908E630403825240FE84DEDB /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/ImageIO.framework; sourceTree = DEVELOPER_DIR; };
@@ -493,6 +492,7 @@
 		FBBBD8EBC240BEFB2C2C9B6FD0037982 /* UIApplication+YYAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+YYAdd.m"; path = "YYKit/Base/UIKit/UIApplication+YYAdd.m"; sourceTree = "<group>"; };
 		FC036FCF119AD742CDD58618AE818FB8 /* NSObject+MJKeyValue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MJKeyValue.m"; path = "MJExtension/NSObject+MJKeyValue.m"; sourceTree = "<group>"; };
 		FC12388A50E47EF39A062ED336644A57 /* NSObject+MJProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MJProperty.h"; path = "MJExtension/NSObject+MJProperty.h"; sourceTree = "<group>"; };
+		FD5742CAFD848776A32ECF5CE2B0377D /* FZKBLE.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FZKBLE.framework; path = Frameworks/FZKBLE.framework; sourceTree = "<group>"; };
 		FDDF5F2ADB7A13F41739459297A03400 /* YYSentinel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYSentinel.m; path = YYKit/Utility/YYSentinel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -584,7 +584,7 @@
 		1529910C79F94D9B475A998C9CABAB7E /* FZKBLE */ = {
 			isa = PBXGroup;
 			children = (
-				2BE27E4EFEE159969BE60A5CEAF3536D /* Frameworks */,
+				7D19746D900F7D5150BD4B9B6F38CEFC /* Frameworks */,
 			);
 			name = FZKBLE;
 			path = ..;
@@ -615,14 +615,6 @@
 			);
 			name = BabyBluetooth;
 			path = BabyBluetooth;
-			sourceTree = "<group>";
-		};
-		2BE27E4EFEE159969BE60A5CEAF3536D /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				1126F64567BCB25A9DEB499F5FC13748 /* FZKBLE.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		4F7D4F298118D255ADB43A6E27959D98 /* MJExtension */ = {
@@ -874,6 +866,14 @@
 			isa = PBXGroup;
 			children = (
 				0F9EA4627526473B0A0315D64E9E6CCE /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7D19746D900F7D5150BD4B9B6F38CEFC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FD5742CAFD848776A32ECF5CE2B0377D /* FZKBLE.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

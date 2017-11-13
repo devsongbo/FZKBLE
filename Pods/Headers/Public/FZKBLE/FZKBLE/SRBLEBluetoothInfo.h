@@ -1,1 +1,1 @@
-../../../../../Framework/FZKBLE.framework/Headers/SRBLEBluetoothInfo.h
+../../../../../Frameworks/FZKBLE.framework/Headers/SRBLEBluetoothInfo.h

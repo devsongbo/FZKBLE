@@ -1,1 +1,1 @@
-../../../../../Framework/FZKBLE.framework/Headers/FZKBTypedef.h
+../../../../../Frameworks/FZKBLE.framework/Headers/FZKBTypedef.h

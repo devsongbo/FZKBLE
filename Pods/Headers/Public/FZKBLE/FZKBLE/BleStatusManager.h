@@ -1,1 +1,1 @@
-../../../../../Framework/FZKBLE.framework/Headers/BleStatusManager.h
+../../../../../Frameworks/FZKBLE.framework/Headers/BleStatusManager.h

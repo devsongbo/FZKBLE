@@ -1,1 +1,1 @@
-../../../../../Framework/FZKBLE.framework/Headers/FZKTBluetoothInfoModel.h
+../../../../../Frameworks/FZKBLE.framework/Headers/FZKTBluetoothInfoModel.h

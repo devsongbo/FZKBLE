@@ -1,1 +1,1 @@
-../../../../../Framework/FZKBLE.framework/Headers/FZKTBluetoothManager.h
+../../../../../Frameworks/FZKBLE.framework/Headers/FZKTBluetoothManager.h

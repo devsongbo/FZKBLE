@@ -1,6 +1,6 @@
 PODS:
   - BabyBluetooth (0.7.0)
-  - FZKBLE (1.0.0):
+  - FZKBLE (1.0.1):
     - BabyBluetooth
     - MJExtension
     - YYKit
@@ -18,7 +18,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   BabyBluetooth: d50758aecf24d4a0ab9271d69f0f116d6bee51c9
-  FZKBLE: 81c0781ae1433cb113d0403c59287fbab4210fdb
+  FZKBLE: 99cdf3705973d06d5e3c60941b409c6c3498fca8
   MJExtension: 5932755f451458eefa24239358817f8d291240c7
   YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
 

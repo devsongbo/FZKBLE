@@ -1,1 +1,1 @@
-../../../../../Framework/FZKBLE.framework/Headers/SRBLEEncryptionInfo.h
+../../../../../Frameworks/FZKBLE.framework/Headers/SRBLEEncryptionInfo.h

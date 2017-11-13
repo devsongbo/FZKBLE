@@ -339,7 +339,7 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-FZKBLE/Pods-FZKBLE-frameworks.sh",
-				"${PODS_ROOT}/../Framework/FZKBLE.framework",
+				"${PODS_ROOT}/../Frameworks/FZKBLE.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
