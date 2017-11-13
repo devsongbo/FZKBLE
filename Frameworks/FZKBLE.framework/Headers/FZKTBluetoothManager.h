@@ -16,6 +16,8 @@
 #import <CoreBluetooth/CoreBluetooth.h>
 @protocol FZKBLEParseDelegate <NSObject>
 
+@optional
+
 - (void)receiveBleStatus:(SRBLEVehicleStatus *)vehicleStatus;
 - (void)receiveOtherStatus:(NSArray*)items;
 - (void)bleConnectStatus:(FZKBLEConnectStatus)state;//蓝牙连接状态
@@ -31,6 +33,9 @@
 
 @property(nonatomic,strong)CBCentralManager *centralManager;
 @property (nonatomic,strong) BleStatusManager* statusManager;
+
+//共享车模式，上锁断油路
+@property BOOL lockThenCloseMode;
 
 @property (nonatomic,weak) id<FZKBLEParseDelegate> delegate;
 
