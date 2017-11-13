@@ -42,6 +42,10 @@
 
 //查询控制滚动码
 + (SRBLESendData *)queryControlNumber;
+
+//同步滚动码到OTU
++ (SRBLESendData *)syncControlNumber2OTU:(NSString*)num;
+
 //控制
 + (SRBLESendData *)dataWithControlInstruction:(SRBLEInstruction)instruction
                                 controlNumber:(UInt16)controlNumber
