@@ -234,7 +234,7 @@
 				TargetAttributes = {
 					967ADEF21F5D237A00E208D6 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = XBE25ZNMM5;
+						DevelopmentTeam = EAY35SZ8W7;
 						ProvisioningStyle = Automatic;
 					};
 					967ADF0B1F5D237A00E208D6 = {
@@ -511,7 +511,7 @@
 			baseConfigurationReference = EA849BCF4C3F4D1E3E418EDB /* Pods-FZKBLE.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = XBE25ZNMM5;
+				DEVELOPMENT_TEAM = EAY35SZ8W7;
 				INFOPLIST_FILE = FZKBLE/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -525,7 +525,7 @@
 			baseConfigurationReference = 57AA13234991393C096DCFD9 /* Pods-FZKBLE.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = XBE25ZNMM5;
+				DEVELOPMENT_TEAM = EAY35SZ8W7;
 				INFOPLIST_FILE = FZKBLE/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
