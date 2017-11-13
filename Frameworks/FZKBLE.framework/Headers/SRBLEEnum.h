@@ -201,7 +201,7 @@ typedef NS_ENUM(UInt16, SRBLEOperationInstruction) {
     //指令
     SRBLEOperationInstruction_B601 = 0xB601,    //重启：立即
     SRBLEOperationInstruction_B602 = 0xB602,    //修改引导扇区编号并重启
-    SRBLEOperationInstruction_B605 = 0xB605,    //同步OTU滚动码
+    
     //会话
     SRBLEOperationInstruction_B701 = 0xB701,    //透传：命令行指令
     SRBLEOperationInstruction_B702 = 0xB702,    //透传：命令行回显
