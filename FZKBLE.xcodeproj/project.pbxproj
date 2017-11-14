@@ -55,6 +55,9 @@
 		967ADF1B1F5D237A00E208D6 /* FZKBLEUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FZKBLEUITests.m; sourceTree = "<group>"; };
 		967ADF1D1F5D237A00E208D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EA849BCF4C3F4D1E3E418EDB /* Pods-FZKBLE.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FZKBLE.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FZKBLE/Pods-FZKBLE.debug.xcconfig"; sourceTree = "<group>"; };
+		F40C8EAE1FBA80D5002898DA /* FZKBLE.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FZKBLE.framework; path = Frameworks/FZKBLE.framework; sourceTree = "<group>"; };
+		F40C8EB01FBA81B6002898DA /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		F40C8EB21FBA8279002898DA /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +162,9 @@
 		D474E42F51006A160124280B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F40C8EB21FBA8279002898DA /* Social.framework */,
+				F40C8EB01FBA81B6002898DA /* UserNotifications.framework */,
+				F40C8EAE1FBA80D5002898DA /* FZKBLE.framework */,
 				304BC8DD955565F5971A93A5 /* libPods-FZKBLE.a */,
 			);
 			name = Frameworks;
@@ -512,10 +518,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = EAY35SZ8W7;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
 				INFOPLIST_FILE = FZKBLE/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = SONG.FZKBLEssssss;
+				MACH_O_TYPE = mh_execute;
+				PRODUCT_BUNDLE_IDENTIFIER = SONG.FZKBLE;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -526,10 +537,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = EAY35SZ8W7;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
 				INFOPLIST_FILE = FZKBLE/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = SONG.FZKBLEssssss;
+				MACH_O_TYPE = mh_execute;
+				PRODUCT_BUNDLE_IDENTIFIER = SONG.FZKBLE;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
