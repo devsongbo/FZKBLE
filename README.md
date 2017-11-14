@@ -1,5 +1,18 @@
 ## FZKBLE
 
+
+##更新 1.0.0版本新增 //共享车模式，上锁断油路 功能
+step1:先删除   pod 'FZKBLE', '~> 1.0.0'
+
+step2:再添加   pod 'FZKBLE', '~> 1.0.0' 执行 pod install
+
+初始化时添加
+[FZKTBluetoothManager instanceShare].lockThenCloseMode = YES;
+
+
+
+
+
 ##如何安装
 step1:
 podfile 添加
@@ -7,7 +20,9 @@ pod 'FZKBLE', '~> 1.0.0'
 执行 pod install  即可自动安装并集成依赖库
 
 step2:导入.h文件
-import <FZKBLE/FZKBLE.h>
+import <FZKBLE/FZKBLE.h> 
+
+
 
 
 
@@ -17,7 +32,7 @@ import <FZKBLE/FZKBLE.h>
 //1.初始化及连接
 -(void)initAndConnect{
 
-FZKTBluetoothInfoModel *ble = [[FZKTBluetoothInfoModel alloc] init];
+FZKTBluetoothInfoModel *ble = [[FZKTBluetoothInfoModel alloc] init];   
 ble.mac = @"247189d2d6b8";
 ble.key = @"346161343338";
 ble.bluetoothID = @"F67100";
