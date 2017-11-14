@@ -2,8 +2,8 @@
 //  FZKBLE.h
 //  FZKBLE
 //
-//  Created by work on 2017/9/14.
-//  Copyright © 2017年 SONG. All rights reserved.
+//  Created by work on 2017/11/14.
+//  Copyright © 2017年 devmodeu. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
@@ -15,6 +15,7 @@ FOUNDATION_EXPORT double FZKBLEVersionNumber;
 FOUNDATION_EXPORT const unsigned char FZKBLEVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <FZKBLE/PublicHeader.h>
+
 
 #import "FZKTBluetoothManager.h"
 #import "FZKTDispatch_after.h"
