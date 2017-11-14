@@ -2,8 +2,9 @@
 
 
 ##更新 1.0.0版本新增 //共享车模式，上锁断油路 功能
-先删除   pod 'FZKBLE', '~> 1.0.0'
-在添加   pod 'FZKBLE', '~> 1.0.0' 执行 pod install
+step1:先删除   pod 'FZKBLE', '~> 1.0.0'
+
+step2:再添加   pod 'FZKBLE', '~> 1.0.0' 执行 pod install
 
 初始化时添加
 [FZKTBluetoothManager instanceShare].lockThenCloseMode = YES;
