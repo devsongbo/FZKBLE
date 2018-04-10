@@ -2,8 +2,8 @@
 //  FZKBLE.h
 //  FZKBLE
 //
-//  Created by work on 2017/11/14.
-//  Copyright © 2017年 devmodeu. All rights reserved.
+//  Created by work on 04/09/2017.
+//  Copyright © 2017 SONG. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
