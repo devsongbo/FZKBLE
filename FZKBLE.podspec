@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   s.vendored_frameworks = 'Frameworks/FZKBLE.framework'
 
   s.dependency "BabyBluetooth"
-  s.dependency "YYKit"
+  #s.dependency "YYKit"
   s.dependency "MJExtension"
 #s.dependency "SUIMVVMKit"
 
